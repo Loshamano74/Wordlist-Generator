@@ -12,4 +12,4 @@ Doesn't print the wordlist to make process faster
 
  # To Run Script
 
- 
+ python3 run.py
