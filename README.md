@@ -4,12 +4,16 @@ Doesn't print the wordlist to make process faster
 
 # Install on Linux-Based systems
 
- git clone https://github.com/Loshamano74/Wordlist-Generator
+git clone https://github.com/Loshamano74/Wordlist-Generator
 
- cd Wordlist-Generator
+cd Wordlist-Generator
 
- chmod +x *
+chmod +x *
 
- # To Run Script
+# To Run Script
 
- python3 run.py
+python3 run.py
+
+# To Update
+
+./update.sh
