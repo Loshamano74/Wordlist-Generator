@@ -65,6 +65,5 @@ if input('\n\033[36m[?] Do you want to use numeric characters? (y/n): ') == 'y':
 for i in range(start, final+1):
 	for j in itertools.product(chrs, repeat=i):
 		temp = ''.join(j)
-		print(temp)
 		arq.write(temp + '\n')
 arq.close()
