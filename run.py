@@ -30,6 +30,7 @@ generated_combinations = 0
 
 directory = input('\n\033[36m[!] Specify directory path or leave blank for current directory: ')
 if directory:
+    directory = os.path.join(os.getcwd(), directory)  # Get full path
     if not os.path.exists(directory):
         os.makedirs(directory)
     os.chdir(directory)
